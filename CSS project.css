@@ -1,0 +1,37 @@
+/*CSS project*/
+
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100%;
+    background-image: url("cover2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+}
+
+.header ul li{
+
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.header ul li a{
+
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.header ul li:hover{background-color: green;}
+
+.header ul li a:hover{color: white;}
