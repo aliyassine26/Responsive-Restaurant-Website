@@ -1,37 +1,44 @@
 /*CSS project*/
 
-body{
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  height: 100%;
+  background-image: url("cover1.jpg");
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    height: 100%;
-    background-image: url("cover2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95),rgba(0,0,0,0.38),rgba(0,0,0,0)) */
 }
 
-.header{
-
-    width: 900px;
-    float: right;
-    border: 1px solid black;
+.header {
+  background-color: lightgray;
+  width: auto;
+  float: right;
+  /* border: 1px solid white; */
 }
 
-.header ul li{
+.header nav {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-    width: 120px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
+  text-align: center;
 }
 
-.header ul li a{
-
-    text-decoration: none;
-    color: darkslategray;
+.header nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.header ul li:hover{background-color: green;}
+.header nav a:hover {
+  color: white;
+}
 
-.header ul li a:hover{color: white;}
+.header nav a:hover {
+  background-color: black;
+}
