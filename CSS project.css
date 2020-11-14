@@ -10,14 +10,12 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95),rgba(0,0,0,0.38),rgba(0,0,0,0)) */
 }
 
 .header {
   background-color: lightgray;
   width: auto;
   float: right;
-  /* border: 1px solid white; */
 }
 
 .header nav {
