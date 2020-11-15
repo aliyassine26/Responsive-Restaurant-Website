@@ -5,15 +5,24 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   height: 100%;
-  background-image: url("cover1.jpg");
+  /* background-image: url("cover1.jpg");
 
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0)
+    ),
+    url("cover1.jpg");
+  background-size: cover;
 }
 
 .header {
-  background-color: lightgray;
+  background-color: none;
   width: auto;
   float: right;
 }
@@ -30,7 +39,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .header nav a:hover {
@@ -39,4 +48,28 @@ body {
 
 .header nav a:hover {
   background-color: black;
+}
+
+.HomeSidebar {
+  width: 300px;
+  height: 500px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+  position: relative;
+  top: 60px;
+}
+
+.HomeSidebar h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+}
+
+.header logo {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
 }
