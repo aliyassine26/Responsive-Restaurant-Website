@@ -1,0 +1,3 @@
+// Branches JavaScript
+
+function branches() {}
