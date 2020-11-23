@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   left: 10;
+  background: rgba(0, 0, 0, 0);
 }
 
 .header {
@@ -84,10 +85,34 @@
   bottom: 0;
   left: 0;
   right: 0;
-
+ 
+ text-align: center;
+ display: block;
   margin: auto;
 }
 
 #display {
   display: none;
+}
+
+#loc_pic{
+  position: absolute;
+ left: 110px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#info {
+ 
+  height: 500px;
+  width: 700px;
+  position: relative;
+  top: 150px;
+  left: 130px;
+}
+
+.name_branches{
+  position: absolute;
+  text-align: center;
+  top:300px;
+  left: 145px;
 }

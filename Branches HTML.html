@@ -5,7 +5,11 @@
 <head>
     <title>BranchesHTML</title>
     <link rel="stylesheet" href="Branches CSS.css">
-    <script src="test.js"></script>
+    <script src="Branches JavaScript.js" type="text/javascript"></script>
+    <script>
+       
+
+    </script>
 </head>
 
 <body>
@@ -26,20 +30,34 @@
     <div class="main">
         <div class="branches">
             <nav>
-                <img src="maps1.jpg" id="maps1">
+               <!-- <img src="maps1.jpg" id="maps1"> -->
+                <img src="location5.png" width="200px" height="200px" id="loc_pic">
+            </br> </br>
+            <div class="name_branches">
+                <h4><a onclick="verdun()">ABC Verdun</a></h4>
 
-                <h4><a onclick="branches('verdun')">ABC Verdun</a></h4>
+                <h4><a onclick="achrafieh()">ABC Achrafieh</a></h4>
 
-                <h4><a onclick="branches('achrafieh')">ABC Achrafieh</a></h4>
+                <h4><a onclick="citycenter()">City Center</a></h4>
 
-                <h4><a onclick="branches('cityCenter')">City Center</a></h4>
+                <h4><a onclick="spot()">Spot Choueifat</a></h4>
 
-                <h4><a onclick="branches('spot')">Spot Choueifat</a></h4>
-
-                <h4><a onclick="branches('leMall')">Le Mall Dbaieh</a></h4>
+                <h4><a onclick="lemall()">Le Mall Dbayeh</a></h4>
+            </div>
             </nav>
 
         </div>
+
+        <div id="info">
+            <h3 id="name" style="color: goldenrod;"></h3>
+            <p id="address" style="color: gray;"></p>
+            <a id="phone" href="" style="color: gray;"></a>
+        </br>
+    </br>
+            <iframe src="" id="map" width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <!--
         <div class="embed" id="display">
             <iframe id="verdun"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.208667153747!2d35.48236151521057!3d33.884279380651975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1733dfc75de9%3A0x476797f46fd36374!2sABC%20Verdun!5e0!3m2!1sen!2slb!4v1605559123257!5m2!1sen!2slb"
@@ -51,7 +69,7 @@
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
 
-            <iframe id="cityCenter"
+            <iframe id="citycenter"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.0792011439494!2d35.52738681521003!3d33.86184968065824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1798849fcae3%3A0xcb7cf8d31d35ce1!2sCity%20Centre%20Beirut!5e0!3m2!1sen!2slb!4v1605560244747!5m2!1sen!2slb"
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
@@ -68,6 +86,7 @@
 
 
         </div>
+    -->
     </div>
 </body>
 
