@@ -127,7 +127,7 @@
 }
 
 .contactForm {
-  width: 40%;
+  width: 45%;
   padding: 40px;
   background-color: goldenrod;
 }
@@ -176,14 +176,17 @@
   transform: translateY(-20px);
 }
 
-.contactForm .inputBox input [type="submit"] {
+#submit {
   width: 100px;
-  background: #00bcd4;
-  color: red;
+  background: black;
+  color: gray;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+  position: relative;
+  left: 0px;
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {

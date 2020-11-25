@@ -4,7 +4,6 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   height: 100%;
- 
 }
 
 .logo {
@@ -33,7 +32,6 @@ body {
 }
 
 .header nav a {
- 
   position: relative;
   left: 620px;
   padding-left: 20px;
@@ -47,7 +45,6 @@ body {
   color: goldenrod;
 }
 
- 
 #branches {
   color: goldenrod;
 }
@@ -79,8 +76,8 @@ body {
 }
 
 .main {
- /* position: relative;  problem with header */
-   display: flex; 
+  /* position: relative;  problem with header */
+  display: flex;
 }
 
 .embed {
@@ -120,4 +117,4 @@ body {
   text-align: center;
   top: 300px;
   left: 145px;
-} 
+}
