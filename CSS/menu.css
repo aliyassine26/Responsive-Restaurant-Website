@@ -1,0 +1,127 @@
+/* Branches CSS*/
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .header {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    float: right;
+    opacity: 0.5;
+  }
+  
+  .header nav {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  .header nav a {
+    position: relative;
+    left: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header nav a:hover {
+    background-color: none;
+    color: goldenrod;
+  }
+  
+  #menu {
+    color: goldenrod;
+  }
+  
+  .branches {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 55px;
+    position: relative;
+    top: 70px;
+  }
+  
+  .branches a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .branches nav a:hover {
+    color: goldenrod;
+  }
+  
+  .branches nav a:active {
+    color: brown;
+  }
+  
+  .main {
+    position: relative;
+    display: flex;
+  }
+  
+  .embed {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+   text-align: center;
+   display: block;
+    margin: auto;
+  }
+  
+  #display {
+    display: none;
+  }
+  
+  #menu_pic{
+    position: absolute;
+   left: 110px;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  #info {
+   
+    height: 500px;
+    width: 700px;
+    position: relative;
+    top: 150px;
+    left: 130px;
+  }
+  
+  .name_branches{
+    position: absolute;
+    text-align: center;
+    top:300px;
+    left: 145px;
+  }
+  .info{
+      
+      position: relative;
+      left: 500px;
+  }
+  .display{
+      display: none;
+  }
+  
