@@ -1,15 +1,19 @@
 /* Branches CSS*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  height: 100%;
+ 
+}
 
 .logo {
   position: fixed;
   top: 0;
   left: 10;
-  background: rgba(0, 0, 0, 0);
 }
 
 .header {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: black;
   position: fixed;
   top: 0;
@@ -29,6 +33,7 @@
 }
 
 .header nav a {
+ 
   position: relative;
   left: 620px;
   padding-left: 20px;
@@ -42,6 +47,7 @@
   color: goldenrod;
 }
 
+ 
 #branches {
   color: goldenrod;
 }
@@ -73,8 +79,8 @@
 }
 
 .main {
-  position: relative;
-  display: flex;
+ /* position: relative;  problem with header */
+   display: flex; 
 }
 
 .embed {
@@ -114,4 +120,4 @@
   text-align: center;
   top: 300px;
   left: 145px;
-}
+} 
