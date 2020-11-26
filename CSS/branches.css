@@ -2,7 +2,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
+  background-color:lightgray;
   height: 100%;
 }
 
@@ -61,11 +61,14 @@ body {
   padding: 55px;
   position: relative;
   top: 70px;
+  
 }
 
 .branches a {
   text-decoration: none;
   color: white;
+ cursor: pointer;
+
 }
 
 .branches nav a:hover {

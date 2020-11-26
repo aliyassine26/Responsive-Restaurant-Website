@@ -22,7 +22,7 @@ function spot() {
 
 function verdun() {
   clear();
-
+  
   var name = document.getElementById("name");
   name.innerHTML = "ABC Verdun";
 
@@ -102,6 +102,7 @@ function lemall() {
 }
 
 function clear() {
+
   var name = document.getElementById("name");
   name.innerHTML = "";
 
