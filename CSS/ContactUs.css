@@ -55,7 +55,6 @@
   color: goldenrod;
 }
 
-
 .contact {
   padding-top: 100px;
   /* position: relative; */
@@ -204,4 +203,20 @@
   .contactForm {
     width: 100%;
   }
+}
+
+.footer {
+  background-color: goldenrod;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  float: right;
+}
+
+#footerContent {
+  text-align: center;
+  color: black;
+  font-weight: 100;
 }

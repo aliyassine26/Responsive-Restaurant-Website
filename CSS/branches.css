@@ -2,7 +2,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color:lightgray;
+  background-color: lightgray;
   height: 100%;
 }
 
@@ -49,7 +49,6 @@ body {
   color: goldenrod;
 }
 
-
 .branches {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -61,14 +60,12 @@ body {
   padding: 55px;
   position: relative;
   top: 70px;
-  
 }
 
 .branches a {
   text-decoration: none;
   color: white;
- cursor: pointer;
-
+  cursor: pointer;
 }
 
 .branches nav a:hover {
@@ -80,7 +77,6 @@ body {
 }
 
 .main {
-  /* position: relative;  problem with header */
   display: flex;
 }
 
@@ -121,4 +117,19 @@ body {
   text-align: center;
   top: 300px;
   left: 145px;
+}
+
+.footer {
+  background-color: goldenrod;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  opacity: 0.7;
+  margin-top: 75px;
+}
+
+#footerContent {
+  text-align: center;
+  color: black;
+  font-weight: 100;
 }

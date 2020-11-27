@@ -201,15 +201,27 @@ body {
 }
 
 #submit:hover {
- 
   background: goldenrod;
   color: black;
-  
 }
 
 #submit:click {
- 
   background: goldenrod;
   color: black;
-  
+}
+
+.footer {
+  background-color: goldenrod;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 90px;
+  float: right;
+}
+
+#footerContent {
+  text-align: center;
+  color: black;
+  font-weight: 100;
 }
