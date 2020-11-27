@@ -1,0 +1,215 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  height: 100%;
+  /* background: linear-gradient(
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+      ),
+      url("../images/HomeCover2.jpeg");
+    background-size: cover; */
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 10;
+}
+
+.header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 10%;
+  float: right;
+  opacity: 0.5;
+}
+
+.header nav {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.header nav a {
+  position: relative;
+  left: 620px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.header nav a:hover {
+  background-color: none;
+  color: goldenrod;
+}
+
+#rateus {
+  color: goldenrod;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: beige;
+}
+
+.rate {
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+  /* padding-top: 100px; */
+}
+
+.rate input {
+  display: none;
+}
+.rate label {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+  /* background: #ccc;*/
+}
+.rate label::before {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 30px;
+  color: gray;
+}
+.rate label::after {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  color: goldenrod;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0.5, 0, 0, 0);
+}
+.rate label:hover:after,
+.rate label:hover ~ label::after,
+.rate input:checked ~ label::after {
+  opacity: 1;
+}
+
+#A {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex; */
+}
+
+#B {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex; */
+}
+
+#C {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex; */
+}
+#D {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex; */
+}
+
+#E {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex; */
+}
+
+#A1 {
+  position: absolute;
+  top: 24%;
+  left: 28%;
+}
+#A2 {
+  position: absolute;
+  top: 34%;
+  left: 28%;
+}
+#A3 {
+  position: absolute;
+  top: 44%;
+  left: 28%;
+}
+#A4 {
+  position: absolute;
+  top: 54%;
+  left: 28%;
+}
+#A5 {
+  position: absolute;
+  top: 64%;
+  left: 28%;
+}
+.info {
+  position: absolute;
+  top: 74%;
+  left: 38%;
+}
+
+.content {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 450px;
+  text-align: center;
+}
+
+.what {
+  text-align: center;
+}
+
+#top {
+  color: goldenrod;
+}
+
+#submit {
+  position: relative;
+  top: 300px;
+  left: 35%;
+  width: 200px;
+  background: black;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#submit:hover {
+ 
+  background: goldenrod;
+  color: black;
+  
+}
+
+#submit:click {
+ 
+  background: goldenrod;
+  color: black;
+  
+}
