@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>quiz</title>
+    
+<link rel="stylesheet" href="CSS/quiz.css">
+
+</head>
+
+<body onload="bodyload()">
+  <div class="header">
+
+    <nav>
+        <div class="logo"><img src="images/logo4.webp" height="60px" width="150px"></div>
+        <a href="homepage.html"> Home </a>
+        <a href="menu.html" > Menu </a>
+        <a href="branches.html"> Branches </a>
+        <a href="ContactUs.html"> Contact us </a>
+        <a href="RateUs.html"> Rate us </a>
+        <a href="quiz.html" id="gold"> QUIZ! </a>
+    </nav>
+</div>
+
+<br><br><br>
+<!-- <h1>restaurant quiz</h1> -->
+<div class="quiz-container">
+  <div id="quiz"></div>
+</div>
+<button id="previous">Previous Question</button>
+<button id="next">Next Question</button>
+<button onclick="disable()" id="submit">Submit Quiz</button>
+<div id="results"></div>
+<p id="promo"></p>
+</body>
+<script src ="JAVASCRIPT/quiz.js" type="text/javascript"></script>
+</html>

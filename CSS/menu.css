@@ -8,7 +8,8 @@ body {
   position: fixed;
   top: 0;
   left: 10;
-  background: rgba(0, 0, 0, 0);
+  /* background: rgba(0, 0, 0, 0); */
+  background: goldenrod;
 }
 
 .header {
@@ -97,38 +98,6 @@ body {
   margin: auto;
 }
 
-#display {
-  display: none;
-}
-
-#menu_pic {
-  position: absolute;
-  left: 110px;
-  background: rgba(0, 0, 0, 0);
-}
-
-#info {
-  height: 500px;
-  width: 700px;
-  position: relative;
-  top: 150px;
-  left: 130px;
-}
-
-.name_branches {
-  position: absolute;
-  text-align: center;
-  top: 300px;
-  left: 145px;
-}
-.info {
-  position: relative;
-  left: 500px;
-}
-.display {
-  display: none;
-}
-
 /************/
 .accordion {
   background-color: black;
@@ -137,7 +106,8 @@ body {
   cursor: pointer;
   padding: 18px;
   /* position: relative;
-    left: 50px; */
+    top: 200px;  */
+  height: 90px;
   width: 100%;
   border: none;
   text-align: center;
@@ -172,125 +142,12 @@ body {
 }
 .accodriondiv {
   position: relative;
-  top: 200px;
-}
-/*
-  .table4{
-  
-      position: relative;
-      left: 200px;
-  }
-
-  /*********  SLIDESHOW  **********/
-
-/* * {box-sizing:border-box}
-
-*/
-
-/* Slideshow container */
-
-.slideshow {
-  width: 40%;
-  height: 40%;
-  position: relative;
-  top: 150px;
-  left: 400px;
-}
-
-.slideshow-container {
-  width: 100px;
-  position: relative;
-  left: 500px;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: goldenrod;
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  /* position: absolute;
-  bottom: 0px; */
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: black;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 30px;
-  width: 30px;
-  margin: 0 2px;
-  background-color: gray;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: goldenrod;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  top: 100px;
 }
 
 .table6 {
+  /* position: relative;
+    top: 150px; */
   width: 100%;
 }
 .image6 {
@@ -299,9 +156,19 @@ body {
 }
 
 .table4 {
+  /* position: relative;
+    top: 250px;
+    height: 30%; */
   width: 100%;
 }
 .image4 {
   width: 350px;
   height: 350px;
+}
+
+/*********  SLIDESHOW  **********/
+
+.w3-container {
+  position: relative;
+  top: 150px;
 }
