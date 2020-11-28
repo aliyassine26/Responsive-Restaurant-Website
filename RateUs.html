@@ -17,7 +17,7 @@
   <div class="header">
 
     <nav>
-      <!-- <div class="logo"><img src="Responsive-Restaurant-Website/images/logo1.jpg" height="60px" width="60px"></div> -->
+      <div class="logo"><img src="images/LeJardin.png" height="60px" width="150px"></div>
       <a href="homepage.html"> Home </a>
       <a href="menu.html"> Menu </a>
       <a href="branches.html"> Branches </a>
@@ -28,7 +28,7 @@
 
     </nav>
   </div>
-
+<center>
   <div class="content">
     <div class="title">
       <h1 id="top">Your Opinion Matters!</h1>
@@ -36,47 +36,63 @@
     </div>
 
     <div class="what">
-      <div class="head" id="A1">
-        <h2>Taste :</h2>
-      </div>
 
+
+      <table border="0">
+        <!-- ROW 1 -->
+        <tr>
+          <th>
+            <h2>Taste :</h2>
+          </th>
+          <th>
+            
       <div class="rate" id="A">
 
-        <input type="radio" name="starA" id="star1"><label for="star1"></label>
+        <input type="radio" name="starA" id="star1"> <label for="star1"></label>
         <input type="radio" name="starA" id="star2"><label for="star2"></label>
         <input type="radio" name="starA" id="star3"><label for="star3"></label>
         <input type="radio" name="starA" id="star4"><label for="star4"></label>
         <input type="radio" name="starA" id="star5"><label for="star5"></label>
-      </div>
-
-      <div class="head" id="A2">
-        <h2>Service:</h2>
-      </div>
-
-      <div class="rate" id="B">
-        <input type="radio" name="starB" id="star6"><label for="star6"></label>
-        <input type="radio" name="starB" id="star7"><label for="star7"></label>
-        <input type="radio" name="starB" id="star8"><label for="star8"></label>
-        <input type="radio" name="starB" id="star9"><label for="star9"></label>
-        <input type="radio" name="starB" id="star10"><label for="star10"></label>
-      </div>
-
-      <div class="head" id="A3">
-        <h2> Hygiene :</h2>
-      </div>
-
-      <div class="rate" id="C">
-        <input type="radio" name="starC" id="star11"><label for="star11"></label>
-        <input type="radio" name="starC" id="star12"><label for="star12"></label>
-        <input type="radio" name="starC" id="star13"><label for="star13"></label>
-        <input type="radio" name="starC" id="star14"><label for="star14"></label>
-        <input type="radio" name="starC" id="star15"><label for="star15"></label>
-      </div>
-
-      <div class="head" id="A4">
-        <h2> Friendliness:</h2>
-      </div>
-
+      </div>          
+            </th>
+        </tr>
+        <!-- ROW 2 -->
+        <tr>
+          <th>
+            <h2>Service:</h2>
+          </th>
+          <th>
+            <div class="rate" id="B">
+              <input type="radio" name="starB" id="star6"><label for="star6"></label>
+              <input type="radio" name="starB" id="star7"><label for="star7"></label>
+              <input type="radio" name="starB" id="star8"><label for="star8"></label>
+              <input type="radio" name="starB" id="star9"><label for="star9"></label>
+              <input type="radio" name="starB" id="star10"><label for="star10"></label>
+            </div>
+          </th>
+        </tr>
+        <!-- ROW 3 -->
+        <tr>
+          <th>
+            <h2> Hygiene :</h2>
+          </th>
+          <th>
+            <div class="rate" id="C">
+              <input type="radio" name="starC" id="star11"><label for="star11"></label>
+              <input type="radio" name="starC" id="star12"><label for="star12"></label>
+              <input type="radio" name="starC" id="star13"><label for="star13"></label>
+              <input type="radio" name="starC" id="star14"><label for="star14"></label>
+              <input type="radio" name="starC" id="star15"><label for="star15"></label>
+            </div>
+          </th>
+        </tr>
+        <!-- ROW 4 -->
+        <tr>
+          <th>
+            <h2> Friendliness:</h2>
+          </th>
+          <th>
+              
       <div class="rate" id="D">
         <input type="radio" name="starD" id="star16"><label for="star16"></label>
         <input type="radio" name="starD" id="star16"><label for="star17"></label>
@@ -84,31 +100,53 @@
         <input type="radio" name="starD" id="star19"><label for="star19"></label>
         <input type="radio" name="starD" id="star20"><label for="star20"></label>
       </div>
+          </th>
+        </tr>
+          <!-- ROW 5 -->
+        <tr>
+          <th>
+            <h2> Professionalism:</h2>
+          </th>
+          <th>
+            <div class="rate" id="E">
+              <input type="radio" name="starE" id="star21"><label for="star21"></label>
+              <input type="radio" name="starE" id="star22"><label for="star22"></label>
+              <input type="radio" name="starE" id="star23"><label for="star23"></label>
+              <input type="radio" name="starE" id="star24"><label for="star24"></label>
+              <input type="radio" name="starE" id="star25"><label for="star25"></label>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <br><br>
+            <form method="POST" action="RateUs.html">
+              <input type="submit" id="submit" onclick="alert('We appreciate your time taken to rate us')"></input>
+            </form>
 
-      <div class="head" id="A5">
-        <h2> Professionalism:</h2>
-      </div>
+          </th>
+        </tr>
+      </table>
 
-      <div class="rate" id="E">
-        <input type="radio" name="starE" id="star21"><label for="star21"></label>
-        <input type="radio" name="starE" id="star22"><label for="star22"></label>
-        <input type="radio" name="starE" id="star23"><label for="star23"></label>
-        <input type="radio" name="starE" id="star24"><label for="star24"></label>
-        <input type="radio" name="starE" id="star25"><label for="star25"></label>
-      </div>
+
+     
     </div>
   </div>
-  <form method="POST" action="RateUs.html">
-    <input type="submit" id="submit" onclick="alert('We appreciate your time taken to rate us')"></input>
-  </form>
 
   <footer class="footer">
-    <p id="footerContent">Our price includes the sales tax of 11%. Our drivers carry less than 50,000 L.L. Minimum
+       <p id="footerContent">Our price includes the sales tax of 11%. Our drivers carry less than 50,000 L.L. Minimum
       purchase required for delivery. Delivery charge will apply. Prices, participation, delivery area and charges
       may vary.<br>
 
       Our Guarantee: If you are not completely satisfied with your experience, we will make it right.<br>
     </p>
+    <center>
+    <div id="social">
+      <a href="https://facebook.com" target="_blank"> <img src="images/fblogo.png" width="3.2%" height="3.2%"> </a>
+      <a href="https://instagram.com" target="_blank"> <img src="images/instalogo.png" width="3%" height="3%"> </a>
+      <a href="https://twitter.com" target="_blank"> <img src="images/twitterlogo.png" width="3%" height="3%"> </a>
+   </div> 
+  </center>
   </footer>
 </body>
 
