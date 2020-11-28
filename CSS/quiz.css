@@ -1,9 +1,7 @@
-
 .logo {
   position: fixed;
   top: 0;
   left: 10;
- 
 }
 
 .header {
@@ -16,8 +14,7 @@
   width: 100%;
   height: 60px;
   float: right;
-  /* opacity: 0.5; */
-  z-index: 1;
+  z-index: 5;
 }
 
 .header nav {
@@ -44,16 +41,16 @@
 
 #gold {
   color: goldenrod;
-}  
-body{
-	font-size: 20px;
-	font-family: 'Work Sans', sans-serif;
-	color: #333;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #333;
   font-weight: 300;
   text-align: center;
-  background-color:#f8f6f0;
+  background-color: #f8f6f0;
 }
-h1{
+h1 {
   font-weight: 300;
   margin: 0px;
   padding: 25px;
@@ -61,7 +58,7 @@ h1{
   background-color: gray;
   color: #fff;
 }
-.question{
+.question {
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -70,39 +67,37 @@ h1{
   text-align: left;
   display: inline-block;
 }
-.answers label{
+.answers label {
   display: block;
   margin-bottom: 10px;
 }
-button{
-  font-family: 'Work Sans', sans-serif;
-	font-size: 22px;
-	background-color: black;
-	color: goldenrod;
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: goldenrod;
   border: 0px;
   width: 300px;
-	border-radius: 20px;
-	padding: 30px;
-	cursor: pointer;
-	margin-bottom: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
-button:hover{
-  background-color:goldenrod;
+button:hover {
+  background-color: goldenrod;
   color: black;
 }
 
-#disabled:hover{
+#disabled:hover {
   background-color: grey;
   opacity: 0.5;
 }
-#disabled{
+#disabled {
   background-color: grey;
   opacity: 0.5;
 }
 
-
-
-.slide{
+.slide {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -111,12 +106,28 @@ button:hover{
   opacity: 0;
   transition: opacity 0.5s;
 }
-.active-slide{
+.active-slide {
   opacity: 1;
   z-index: 2;
 }
-.quiz-container{
+.quiz-container {
   position: relative;
   height: 200px;
   margin-top: 40px;
+}
+
+.footer {
+  background-color: goldenrod;
+  position: relative;
+  top: 200px;
+  right: 0;
+  width: 100%;
+  height: 200px;
+}
+
+#footerContent {
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  padding-top: 2%;
 }

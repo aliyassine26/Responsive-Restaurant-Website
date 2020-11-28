@@ -1,5 +1,5 @@
-body{
-  background-color: rgb(66, 66, 66);
+body {
+  background-color: beige;
 }
 
 * {
@@ -14,6 +14,7 @@ body{
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 100%;
+  z-index: 1;
 }
 
 .logo {
@@ -61,15 +62,12 @@ body{
 
 .contact {
   padding-top: 100px;
-  /* position: relative; */
   min-height: 100vh;
   padding: 50px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: url(contactUsCover1.jpg);
-  background-size: cover; */
 }
 
 .contact .content {
@@ -209,22 +207,22 @@ body{
   }
 }
 
+.links {
+  color: goldenrod;
+}
+
 .footer {
   background-color: goldenrod;
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  top: 200px;
   right: 0;
   width: 100%;
-  height: 70px;
-  float: right;
+  height: 200px;
 }
 
 #footerContent {
   text-align: center;
   color: black;
   font-weight: 100;
-}
-
-.links{
-  color: goldenrod;
+  padding-top: 2%;
 }

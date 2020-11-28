@@ -1,15 +1,14 @@
 /* Branches CSS*/
 
 body {
-  background-color: grey;
+  background-color: beige;
 }
 
 .logo {
   position: fixed;
   top: 0;
   left: 10;
-   background: rgba(0, 0, 0, 0); 
- 
+  background: rgba(0, 0, 0, 0);
 }
 
 .header {
@@ -22,7 +21,6 @@ body {
   width: 100%;
   height: 60px;
   float: right;
-  /* opacity: 0.5; */
   z-index: 1;
 }
 
@@ -80,7 +78,6 @@ body {
 }
 
 .main {
-  /* position: relative; */
   display: flex;
 }
 
@@ -101,12 +98,9 @@ body {
 /************/
 .accordion {
   background-color: black;
-  /* opacity: 0.5; */
   color: white;
   cursor: pointer;
   padding: 18px;
-  /* position: relative;
-    top: 200px;  */
   height: 90px;
   width: 100%;
   border: none;
@@ -146,8 +140,6 @@ body {
 }
 
 .table6 {
-  /* position: relative;
-    top: 150px; */
   width: 100%;
 }
 .image6 {
@@ -156,9 +148,6 @@ body {
 }
 
 .table4 {
-  /* position: relative;
-    top: 250px;
-    height: 30%; */
   width: 100%;
 }
 .image4 {

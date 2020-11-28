@@ -5,18 +5,12 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   height: 100%;
-  /* background: linear-gradient(
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0)
-    ), */
+  width: 99%;
   background: url("../images/HomeCover2.jpeg");
-  background-size: cover;
+  background-size: 100%;
 }
 
 .logo {
- 
   position: fixed;
   top: 0;
   left: 10;
@@ -30,7 +24,7 @@ body {
   width: 100%;
   height: 60px;
   float: right;
-  opacity: 0.5;
+  z-index: 1;
 }
 
 .header nav {
@@ -85,17 +79,16 @@ body {
 
 .footer {
   background-color: goldenrod;
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  top: 200px;
   right: 0;
   width: 100%;
-  height: 100px;
-  float: right;
-  opacity: 0.7;
+  height: 200px;
 }
 
 #footerContent {
   text-align: center;
   color: black;
-  font-weight: 200;
+  font-weight: 100;
+  padding-top: 2%;
 }
