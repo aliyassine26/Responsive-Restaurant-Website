@@ -4,9 +4,10 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
-  height: 100%;
-  width: 99%;
-  background: url("../images/HomeCover2.jpeg");
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background: url("../images/HomeCover2.jpeg") no-repeat;
   background-color: black;
   background-size: 100%;
 }
@@ -55,10 +56,6 @@ body {
 }
  */
 
- body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .topnav {
   /* overflow: hidden; */
@@ -113,9 +110,11 @@ body {
 
 
 .HomeSidebar {
-  z-index: -1;
+  /* z-index: -1; */
   width: 250px;
   height: 370px;
+  /* width: 25%; */
+  
   background-color: black;
   opacity: 0.7;
   padding: 55px;
@@ -138,11 +137,12 @@ body {
 
 .footer {
   background-color: goldenrod;
-  position: relative;
-  top: 200px;
-  right: 0;
+  position: absolute;
+  opacity: 0.8;
+  bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 220px;
+  text-align: center;
 }
 
 #footerContent {
@@ -150,4 +150,40 @@ body {
   color: black;
   font-weight: 100;
   padding-top: 2%;
+}
+
+#bodypic{
+  margin: 0 auto;
+  display: none;
+  /* width: 100px;
+  height: 100px; */
+}
+
+/*Responsivness*/
+
+@media screen and (max-width: 900px) {
+  body{
+    background: none;
+    background-color: black;
+  }
+
+  .HomeSidebar{
+    width: 80%;
+    height: 3%;
+    padding-top: 0;
+    /* height: 10%; */
+    position: relative;
+    top: 100px;
+  }
+  #bodypic{
+    z-index: 1;
+    display: block;
+    height: 20%;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    
+  }
+
 }
