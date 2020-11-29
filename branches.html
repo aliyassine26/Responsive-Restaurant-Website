@@ -5,27 +5,27 @@
 <head>
     <title>BranchesHTML</title>
     <link rel="stylesheet" href="CSS/branches.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="JAVASCRIPT/branches.js" type="text/javascript"></script>
-  
+
 
 </head>
 
-<body onload="verdun()" id="branchespage">
+<body onload="verdun()" id="branchespage" style="width: 100%;">
 
-       
-<div class="topnav" id="myTopnav">
-    <a href="homepage.html" >Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="branches.html" class="active">Branches</a>
-    <a href="ContactUs.html">Contact Us</a>
-    <a href="RateUs.html">Rate Us</a>
-    <a href="quiz.html">Quiz</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+
+    <div class="topnav" id="myTopnav">
+        <a href="homepage.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="branches.html" class="active">Branches</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="RateUs.html">Rate Us</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
 
     <div class="main">
@@ -49,6 +49,16 @@
 
         </div>
 
+        <div class="hidden_branches">
+            <h4 class="name_color">
+                <a onclick="verdun()">ABC Verdun</a>
+                <a onclick="achrafieh()">ABC Achrafieh</a>
+                <a onclick="citycenter()">City Center</a>
+                <a onclick="spot()">Spot Choueifat</a>
+                <a onclick="lemall()">Le Mall Dbayeh</a>
+            </h4>
+
+        </div>
 
         <div id="info">
             <h3 id="name" style="color: goldenrod;"></h3>
@@ -56,8 +66,8 @@
             <a id="phone" href="" style="color: black;"></a>
             </br>
             </br>
-            <iframe src="" id="map" width="400" height="350" frameborder="0" style="border:0;" allowfullscreen=""
-                aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="" id="map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
         </div>
 
     </div>
