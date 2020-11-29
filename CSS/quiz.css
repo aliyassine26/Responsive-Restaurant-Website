@@ -1,3 +1,10 @@
+html ,body{
+  min-height: 500px;
+  height: auto !important; 
+  height:500px ;
+
+}
+
 .logo {
   position: fixed;
   top: 0;

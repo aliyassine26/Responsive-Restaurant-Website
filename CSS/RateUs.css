@@ -10,10 +10,6 @@ body {
 }
 
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .topnav {
   overflow: hidden;
@@ -117,18 +113,19 @@ body {
 }
 
 .content {
+  
   display: flex;
   padding-top: 50px;
   padding-left: 450px;
   text-align: center;
 }
 
-.what {
+/* .what {
   text-align: center;
   position: relative;
   right: 50%;
   top: 150px;
-}
+} */
 
 #top {
   color: goldenrod;
@@ -162,7 +159,7 @@ body {
   position: relative;
   top: 200px;
   right: 0;
-  width: 100%;
+  width: auto;
   height: 200px;
 }
 
@@ -171,4 +168,23 @@ body {
   color: black;
   font-weight: 100;
   padding-top: 2%;
+}
+
+.content{
+  text-align: center;
+  width: 500px;
+  margin:0 auto;
+  position: relative;
+  right:200px;
+}
+
+.title{
+  position: relative;
+   /* left: 350px; */
+}
+
+.table{
+position: relative;
+right: 400px;
+top: 150px;
 }
