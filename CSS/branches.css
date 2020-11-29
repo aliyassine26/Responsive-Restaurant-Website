@@ -55,7 +55,7 @@ body {
   }
 }
 
-.branches a {
+.branches a  {
   text-decoration: none;
   color: white;
   cursor: pointer;
@@ -143,6 +143,22 @@ body {
 
 .hidden_branches {
   display: none;
+  background-color: goldenrod;
+  text-align: center;
+} 
+.name_color a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.name_color a:hover {
+  color: black;
+}
+ 
+
+.name_color a:active {
+  color: brown;
 }
 
 @media screen and (max-width: 1100px) {
