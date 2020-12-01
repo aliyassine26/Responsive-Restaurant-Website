@@ -196,7 +196,7 @@ body {
 
 .slideimage{
   height: 600px;
-  width: 1000px;
+  width: 100%;
 }
 
 
@@ -237,3 +237,9 @@ body {
 
 }
 
+#top-button{
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
