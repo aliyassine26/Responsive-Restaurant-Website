@@ -84,23 +84,7 @@ body {
 .rate input:checked ~ label::after {
   opacity: 1;
 }
-/* 
-.info {
-  position: absolute;
-  top: 74%;
-  left: 38%;
-} */
 
-/* .what {
-  text-align: center;
-  position: relative;
-  right: 50%;
-  top: 150px;
-} */
-
-/* #top {
-  color: goldenrod;
-} */
 
 #submit {
   width: 200px;
@@ -121,9 +105,6 @@ body {
   color: black;
 }
 
-/* #rate {
-  color: goldenrod;
-} */
 
 .footer {
   background-color: goldenrod;
@@ -144,27 +125,17 @@ body {
 
 .content {
   
-  /* display: flex; */
-  /* padding-top: 50px;
-  padding-left: 450px; */
   text-align: center;
-
   width: 500px;
   margin:0 auto;
-  /* position: relative;
-  right:200px; */
+ 
 }
 
 .title{
   margin:0 auto;
-  /* position: relative; */
-   /* left: 350px; */
 }
 
 .table{
-/* position: relative;
-right: 400px;
-top: 150px; */
 margin: 0 auto;
 }
 
@@ -199,4 +170,3 @@ margin: 0 auto;
 }
 
 
-}

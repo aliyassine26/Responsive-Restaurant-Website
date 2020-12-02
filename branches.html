@@ -3,18 +3,25 @@
 <html>
 
 <head>
-    <title>BranchesHTML</title>
+    <!-- title -->
+    <title>Le Jardin - Branches</title>
+     <!-- Link to CSS file -->
     <link rel="stylesheet" href="CSS/branches.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Link to JAVASCRIPT file -->
     <script src="JAVASCRIPT/branches.js" type="text/javascript"></script>
+     <!-- helps keeping webpage responsive  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- external CSS library to import navigator bar icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
 
 
 </head>
-
+<!-- Calls JavaScript function "verdun()" when webpage is loaded -->
 <body onload="verdun()" id="branchespage" style="width: 100%;">
 
-
+<!-- top navigator bar -->
     <div class="topnav" id="myTopnav">
         <a href="homepage.html">Home</a>
         <a href="menu.html">Menu</a>
@@ -29,11 +36,14 @@
 
 
     <div class="main">
+        <!-- Side bar containing branches hyperlinks -->
         <div class="branches">
             <nav>
-
+                <!-- location png image  -->
                 <img src="images/location5.png" width="200px" height="200px" id="loc_pic">
-                </br> </br>
+                
+            </br> </br>
+                    <!-- Name/HyperLink of branches which calls JavaScript function (depends branch name)   -->
                 <div class="name_branches">
                     <h4 class="name_color"><a onclick="verdun()">ABC Verdun</a></h4>
 
@@ -48,7 +58,7 @@
             </nav>
 
         </div>
-
+        <!-- Hidden branch hyperlink (appears on low dimensions) -->
         <div class="hidden_branches">
             <h4 class="name_color">
                 <a onclick="verdun()">ABC Verdun</a>
@@ -61,24 +71,28 @@
         </div>
 
         <div id="info">
+            <!-- information displayed according to each branch -->
             <h3 id="name" style="color: goldenrod;"></h3>
             <p id="address" style="color: black"></p>
             <a id="phone" href="" style="color: black;"></a>
             </br>
             </br>
+            <!-- iframe used to get google map of each branch (src changed in JavaScript) -->
             <iframe src="" id="map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
         </div>
 
     </div>
+                                <!-- Footer -->
     <footer class="footer">
+         <!-- footer text -->
         <p id="footerContent">Our price includes the sales tax of 11%. Delivery charge will apply. Prices,
             participation, delivery area and charges
             may vary.<br>
-
             Our Guarantee: If you are not completely satisfied with your experience, we will make it right.<br>
         </p>
         <center>
+             <!-- social media hyperlink images -->
             <div id="social">
                 <a href="https://facebook.com" target="_blank"> <img src="images/fblogo.png" width="3.2%" height="3.2%">
                 </a>
