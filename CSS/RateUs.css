@@ -147,9 +147,10 @@ margin: 0 auto;
   position: relative;
   top: 200px;
   right: 0;
-  width: auto;
-  height: 220px;
+  width: 100%;
+  height: 280px;
 }
+
 
 /* defines shape and size of footer content */
 #footerContent {

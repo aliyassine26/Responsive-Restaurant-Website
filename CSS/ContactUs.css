@@ -54,7 +54,6 @@ body {
 /* defines shape and size of everything included in this page  */
 .contact {
   padding-top: 100px;
-  min-height: 100vh;
   padding: 50px 100px;
   display: flex;
   justify-content: center;
@@ -208,7 +207,7 @@ body {
 .footer {
   background-color: goldenrod;
   position: relative;
-  top: 100px;
+  top: 200px;
   right: 0;
   width: 100%;
   height: 280px;
