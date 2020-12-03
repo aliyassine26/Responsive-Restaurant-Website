@@ -1,23 +1,27 @@
-/*CSS project*/
+/* HOMEPAGE CSS */
 
 body {
+  /* font family */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    /* homepage font color */
   color: white;
   margin: 0;
   height: auto;
   width: 100%;
+  /* insert backgroud image */
   background: url("../images/HomeCover2.jpeg") no-repeat;
+  /* homepage background color & size */
   background-color: black;
   background-size: 100%;
 }
 
-
+/* background color of top navigator bar */
 .topnav {
-  /* overflow: hidden; */
   background-color: black;
 }
 
+/* CSS of top navigator bar hyperlinks  */
 .topnav a {
   float: left;
   display: block;
@@ -28,45 +32,26 @@ body {
   font-size: 17px;
 }
 
+/* CSS of top navigator bar hyperlinks on hover  */
 .topnav a:hover {
    background-color: goldenrod; 
   color: white;
 }
 
+/* CSS of top navigator bar hyperlinks when activated */
 .topnav a.active {
   background-color: goldenrod;
   color: white;
 }
 
+/* top navigator bar icon */
 .topnav .icon {
+  /* initially hidden (appears on low dimensions) */
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-
+/* defines shape, size and position of side bar (mission statement) */
 .HomeSidebar {
-
   width: 250px;
   height: 370px;
   background-color: black;
@@ -76,12 +61,14 @@ body {
   top: 60px;
 }
 
+/* defines shape and size of header in side bar  */
 .HomeSidebar h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 100px;
 }
 
+/* defines shape and size of paragraph in side bar  */
 .HomeSidebar p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -89,6 +76,7 @@ body {
   font-weight: 100;
 }
 
+/* defines shape, size and position of footer */
 .footer {
   background-color: goldenrod;
   position: fixed;
@@ -99,6 +87,7 @@ body {
   text-align: center;
 }
 
+/* defines shape and size of footer content */
 #footerContent {
   text-align: center;
   color: black;
@@ -106,19 +95,23 @@ body {
   padding-top: 1%;
 }
 
+/* Logo */
 #bodypic{
   margin: 0 auto;
-  display: none;
+  display: none;  /*initially hidden (appears on low dimensions)*/
 }
 
-/*Responsivness*/
 
+
+/*Responsivness - webpage*/
+/* activated when width is below 900px */
 @media screen and (max-width: 900px) {
   body{
+    /* removes background */
     background: none;
     background-color: black;
   }
-
+  /* adapts size and position of home side bar (mission statement) */
   .HomeSidebar{
     width: 80%;
     height: 3%;
@@ -126,6 +119,7 @@ body {
     position: relative;
     top: 100px;
   }
+  /*  displays restaurants logo */
   #bodypic{
     z-index: 1;
     display: block;
@@ -138,3 +132,36 @@ body {
   }
 
 }
+/*Responsivness - top navigator bar*/
+
+/* activated when width is below 600px */
+@media screen and (max-width: 600px) {
+
+  /* Hides initial hyperlinks except home button (first child) */
+  .topnav a:not(:first-child) {
+    display: none;}
+
+
+    /* displays icon on top right */
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  /* adapts nav bar position */
+  .topnav.responsive {
+    position: relative;
+  }
+  /* icon displayed on top right of nav bar */
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* hyperlinks displayed */
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+

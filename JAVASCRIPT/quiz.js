@@ -1,13 +1,16 @@
 // Functions
 
-function myFunction() {
-   var x = document.getElementById("myTopnav");
-   if (x.className === "topnav") {
-     x.className += " responsive";
-   } else {
-     x.className = "topnav";
-   }
- }
+        // function actived when pressed on navigator bar icon)
+        function myFunction() {
+         var x = document.getElementById("myTopnav");
+         
+         //changing class name to make navigation bar responsive
+         if (x.className === "topnav") {
+           x.className += " responsive";
+         } else {
+           x.className = "topnav";
+         }
+       }
  
 function buildQuiz() {
     // variable to store the HTML output
@@ -20,7 +23,7 @@ function buildQuiz() {
  
        // and for each available answer...
        for (letter in currentQuestion.answers) {
-          // ...add an HTML radio button
+          //add radio button
           answers.push(
              `<label>
              <input type="radio" name="question${questionNumber}" value="${letter}">
@@ -73,7 +76,8 @@ function buildQuiz() {
        }
 
     });
-//  Display alert according to number of correct answers    
+
+      //Display alert according to number of correct answers    
 
       if(numCorrect==4){
 
@@ -91,6 +95,7 @@ function buildQuiz() {
          disable();
        }
 
+       //function that generates random letters
        function generate_letters() {
          var result = '';
          var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -100,6 +105,7 @@ function buildQuiz() {
          return result;
       }   
 
+      //function that disables submit button after being clicked
       function disable(){
         var button = document.getElementById("submit");
         button.disabled=true; 
@@ -112,27 +118,40 @@ function buildQuiz() {
  }
  
  function showSlide(n) {
+    //removes current slide
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
+    
+    //"n" is given by user
     currentSlide = n;
+
+    //hides "previous button" on first slide
     if (currentSlide === 0) {
        previousButton.style.display = "none";
-    } else {
+    } 
+    //else shows previous button
+    else {
        previousButton.style.display = "inline-block";
     }
+
+    //hides "next button" and shows "submit button" on last slide
     if (currentSlide === slides.length - 1) {
        nextButton.style.display = "none";
        submitButton.style.display = "inline-block";
-    } else {
+    }
+    //hides "submit button" and shows "next button" on all slides except first & slides
+    else {
        nextButton.style.display = "inline-block";
        submitButton.style.display = "none";
     }
  }
  
+ //calls "showSlide" function to go forward towards next question
  function showNextSlide() {
     showSlide(currentSlide + 1);
  }
- 
+
+ //calls "showSlide" function to go back towards previous question
  function showPreviousSlide() {
     showSlide(currentSlide - 1);
  }
@@ -142,8 +161,10 @@ function buildQuiz() {
  const resultsContainer = document.getElementById("results");
  const submitButton = document.getElementById("submit");
  
+//  Questions and asnwers
  const myQuestions = [
    {
+      // Question 1 and its answers
       question: "Where did Pizza originally come from?",
       answers: {
          a: "Italy",
@@ -154,6 +175,7 @@ function buildQuiz() {
       correctAnswer: "a",
    },
     {
+       // Question 2 and its answers
        question: "When was the first burger made",
        answers: {
           a: "1880",
@@ -165,6 +187,7 @@ function buildQuiz() {
     },
    
     {
+       // Question 3 and its answers
       question: "Noodles country of origin:",
       answers: {
          a: "Japan",
@@ -175,6 +198,7 @@ function buildQuiz() {
       correctAnswer: "c",
    },
    {
+      // Question 4 and its answers
       question: "How many calories are in 100g of Lebanese Tabbouleh",
       answers: {
          a: "250",
@@ -186,7 +210,7 @@ function buildQuiz() {
    },
  ];
  
- // Kick things off
+ // calls "buildQuiz()" in order to build quiz (questions & answers)
  buildQuiz();
  
  // Pagination

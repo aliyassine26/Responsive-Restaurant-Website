@@ -44,7 +44,7 @@
       </center>
       </div>
 
-      <div class="content">
+      <div class="content" style="display: block;">
 
         <!-- stars and captions are placed in table of 5 rows & 2 columns -->
         <table border="0" class="table">
@@ -136,15 +136,15 @@
               <!-- form refering to same webpage (since we dont have back-end server) -->
               <form method="POST" action="RateUs.html"> 
                 <!-- submit button alert triggering appreciation message when clicked  -->
-                <input type="submit" id="submit" onclick="alert('We appreciate your time taken to rate us')"></input>
+                <input type="submit" id="submit" onclick="alert('We appreciate your time taken to rate us')" onclick="rate()"></input>
               </form>
 
             </th>
           </tr>
         </table>
 
-
     </div>
+
     <!-- Footer -->
     <footer class="footer">
       <!-- footer text -->
